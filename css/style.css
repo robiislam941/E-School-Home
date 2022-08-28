@@ -1,0 +1,268 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*code start here*/
+.header{
+	width: 100%;
+	background: #F0FFF0;
+}
+.header .navbar-nav .nav-item .nav-link{
+	font-size: 16px
+	font-weight: 400;
+	color: #000;
+	margin: 0px 15px 0px 15px;
+}
+.header .navbar-nav .nav-item .nav-link:hover, .header .navbar-nav .nav-item .nav-link:focus{
+	color: #21B573;
+}
+.header .navbar-nav .nav-item .btn-success{
+	font-size: 14px;
+	font-weight:400;
+	color: #fff;
+	background:#21B573; 
+	border: 1px solid #21B573;
+	padding: 10px 20px;
+	border-radius: 33px;
+	transition: 1s;
+}
+.header .navbar-nav .nav-item .btn-success:hover, .header .navbar-nav .nav-item .btn-success:focus{
+	color: #21B573;
+	background:#fff; 
+	border: 1px solid #21B573;
+}
+
+/*banner code start here*/
+.banner{
+	width: 100%;
+	padding: 40px 0px;
+}
+.inner-banner{
+	width: 100%;
+	padding: 40px 0px;
+}
+.inner-banner h6{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color:#FD511A;
+}
+.inner-banner h2{
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: 700;
+	color:#000;
+}
+.inner-banner h2 span{
+color: #21B573;
+}
+.inner-banner p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color:#6C6B6B;
+	margin: 25px 0px;
+}
+.inner-banner .btn-success{
+	font-size: 16px;
+	font-weight:400;
+	color: #fff;
+	background:#21B573; 
+	border: 1px solid #000;
+	padding: 12px 29px;
+	border-radius: 35px;
+	transition: 1s;
+}
+.inner-banner .btn-success:hover, .inner-banner .btn-success:focus{
+	color: #21B573;
+	background:#fff; 
+	border: 1px solid #21B573;
+}
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature .inner-feature{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+	background: #F8FFFB;
+	border-radius: 10px;
+}
+.feature .inner-feature img{
+	width: 80px;
+	height: 85px;
+}
+.feature .inner-feature h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 400;
+	color:#000;
+	margin: 20px 0px 0px;
+}
+.feature .inner-feature p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color:#585859;
+	margin: 0px 0px 0px;
+}
+.feature .inner-feature:hover{
+	background: #fff;
+	box-shadow: 0px 20ox 40px rgba(0, 0, 0, 0.1);
+}
+/*online-course code start*/
+.online-course{
+	width: 100%;
+	padding: 80px 0px;
+}
+.online-course h1{
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 58px;
+	color: #413960;
+	text-align: center;
+	margin: 0px 0px 40px;
+}
+.online-course .cl1 img{
+	width: 16px;
+	margin: 0px 5px 0px 0px;
+}
+.online-course .people img{
+	width: 16px;
+	margin: 0px 5px 0px 0px;
+
+}
+.online-course .card .cl1{
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	margin: 25px 0px 0px; 
+}
+.online-course .card .people{
+	font-size: 14px;
+	color: #000;
+	margin: 25px 0px 0px; 
+	text-align: right;
+}
+.online-course .card{
+	width: 100%;
+	border: 0px;
+	padding: 25px;
+	background: #fff;
+	box-shadow: 0px 20ox 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+.online-course .card-img-top{
+	width: 100%;
+	border-radius: 10px;
+}
+.online-course .card .card-body{
+	padding: 15px 0px;
+}
+.online-course .card .card-body .card-title{
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 28px;
+	color: #413960;
+	margin: 10px 0px 5px;
+}
+.online-course .card .card-body .card-text{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #585859;
+	margin: 0px 0px 15px;
+}
+.online-course .card .card-body .btn-success{
+	font-size: 14px;
+	font-weight:400;
+	color: #fff;
+	background:#21B573; 
+	border: 1px solid #21B573;
+	padding: 8px 20px;
+	border-radius: 33px;
+	transition: 1s;
+}
+.online-course .card .card-body .btn-success:hover,.online-course .card .card-body .btn-success:focus{
+	color: #21B573;
+	background:#fff; 
+	border: 1px solid #21B573;
+}
+/*testmonial code start*/
+..online-testmonial{
+	width: 100%;
+	padding: 80px 0px;
+}
+.online-testmonial h1{
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 58px;
+	color: #413960;
+	text-align: center;
+	margin: 0px 0px 30px;
+}
+.online-testmonial .img-fluid{
+	width: 120px;
+	float: right;
+	margin: 45px 0px;
+	
+}
+.online-testmonial .test-text p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0px 20px 0px;
+    padding: 80px 0px;
+}
+/*header code start*/
+.footer{
+	width: 100%;
+	padding: 50px 0px 20px;
+	background: #282531;
+}
+.footer p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin: 11px 0px 0px;
+
+}
+.footer .list span{
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+.footer .list{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+.footer .list li{
+	margin: 5px 0px 0px;
+	list-style: none;
+}.footer .list{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+.footer .copyright p{
+	margin: 10px 0px 0px;
+	text-align: center;
+}
